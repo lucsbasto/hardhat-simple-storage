@@ -1,0 +1,8 @@
+{
+  "name": "hardhat-simple-storage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lucsbasto/hardhat-simple-storage.git",
+  "author": "Lucas <lucsbasto@gmail.com>",
+  "license": "MIT"
+}
