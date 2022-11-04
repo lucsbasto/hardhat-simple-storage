@@ -1,8 +1,9 @@
-require("@nomiclabs/hardhat-waffle")
-require("@nomiclabs/hardhat-etherscan")
-require("solidity-coverage")
-require("dotenv").config()
-require("./tasks/block-number")
+import "@nomiclabs/hardhat-waffle"
+import "@nomiclabs/hardhat-etherscan"
+import "solidity-coverage"
+import "dotenv/config"
+import "./tasks/block-number"
+import "@typechain/hardhat"
 
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL
 const PRIVATE_KEY = process.env.PRIVATE_KEY
